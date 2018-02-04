@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Automatic_Volume_Control"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="272.445" Width="406.296" Opacity="0.75" Background="#FF323232">
+
+
     <Grid>
-        
+        <StackPanel Height="132" Margin="141,54,144,55" VerticalAlignment="Stretch" Background="#FF36363B">
+            <Button x:Name="Mute" Content="Mute" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Height="27" Background="#FF5A5AAA" BorderBrush="{x:Null}" Click="Mute_Click"/>
+            <Button x:Name="Vol_up" Content="Volume Up"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Height="50" Background="#FF5A5AAA" BorderBrush="{x:Null}" Click="Vol_up_Click"/>
+            <Button x:Name="Vol_Dwn" Content="Volume Down" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="110" Height="50" Background="#FF5A5AAA" BorderBrush="{x:Null}" Click="Vol_Dwn_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
